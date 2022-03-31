@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Configuring Niffler"
-sudo chmod -R 777 .
+chmod -R 777 .
 
 PIP=`head -n 1 init/pip.out`
 if [ "$PIP" = false ] ; then
